@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Scumbles: A Journey Through Flight Delay Data</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <h1>Skyline Scumbles: A Journey Through Flight Delay Data</h1>
+    <div class="container">
+        <div class="visualization" id="bar-chart-container">
+            <h2 class="top">Top 10 Busiest Airports</h2>
+            <svg class="bar-chart" style="width: 100%;"></svg>
+        </div>
+        <div class="visualization" id="map-chart-container">
+            <h2 class="top">States recieving most of the flights</h2>
+            <svg class="map-chart"style="width:100%;" ></svg>
+        </div>
+        
+        <div class="visualization" id="scatterplot-container">
+            <h2 class="top">Carrier Delay vs Weather Delay by years</h2>
+            
+            <svg class="scatterplot" style="width: 100%;"></svg>
+           
+        </div>
+        <div class="visualization" id="grouped-bar-chart-container">
+            <h2 class="top">Flight Schedules</h2>
+            <svg class="grouped-bar-chart" style="width: 100%;"></svg>
+        </div>
+    </div>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="js/d3.v7.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/barchart.js"></script>
+    <script src="js/FlightMap.js"></script>
+    <script src="js/Scatterplot.js"></script>
+    <script src="js/GroupedBarchart.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* Add some spacing around the h1 */
+h1 {
+  text-align: center;
+  margin-top: 40px; /* Increase the top margin for more spacing */
+  margin-bottom: 20px; /* Add bottom margin for separation */
+  font-size: 28px; /* Increase font size for emphasis */
+  color: #333; /* Darken the text color */
+}
+
+/* Style the container divs */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  /* background-color: #f3f3f3; Light gray background color */
+  border-radius: 10px; /* Add some border radius for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the visualization divs */
+.visualization {
+  background-color: #fff; /* White background color */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+/* Center the text inside the visualization divs */
+.visualization h2 {
+  text-align: center;
+  color: #333; /* Darken the text color */
+}
+
+/* Adjust font size and color for the top class */
+.top {
+  font-size: 24px; /* Decrease font size for a subtitle-like appearance */
+  color: #555; /* Darken the text color */
+}
+body{
+  background-color: #ddd;
+}
+
+/*for grouped bar chart checkbox */
+.checkbox-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Arrange checkboxes in columns */
+  grid-gap: 10px; /* Add some gap between checkboxes */
+  justify-items: center; /* Center items horizontally */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #fff; /* White background color */
+  border: 1px solid #ddd; /* Add a border
+  /* border-radius: 5px; Add border radius for a softer look */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Add a slight shadow */ 
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 5px; /* Add some space between each checkbox item */
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 5px; /* Add some space between the checkbox and the label */
+}
